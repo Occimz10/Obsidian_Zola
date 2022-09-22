@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Note 3.md",
+            "file": "Note 1.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note 3.md",
+                "file": "Note 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note 3.md",
+                "file": "Note 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note 3.md"
+                "file": "Note 1.md"
               }
             }
           }
@@ -130,8 +130,8 @@
   },
   "active": "9889011619c9b3aa",
   "lastOpenFiles": [
-    "Note 2.md",
     "Note 3.md",
+    "Note 2.md",
     "Note 1.md",
     "hyeeenanaa.md",
     "YEEEEEEES.md",
