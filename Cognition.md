@@ -1,0 +1,8 @@
+To know,
+
+[[metacognition]]
+[[recognition]]
+
+
+
+
