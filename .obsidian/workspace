@@ -7,12 +7,8 @@
         "id": "9889011619c9b3aa",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Cognition/123456789900.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cognition/123456789900.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cognition/123456789900.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Cognition/123456789900.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -130,15 +122,15 @@
   },
   "active": "3e1bb399b43b3bcd",
   "lastOpenFiles": [
+    "Data.md",
+    "Note 3.md",
+    "Cognition/123456789900.md",
     "Cognition/Untitled/Cognitive abilities.md",
     "Cognition/Untitled/Untitled/Cognition.md",
     "Cognition/Untitled/Untitled/metacognition.md",
     "Knowledge.md",
     "metacognition.md",
     "Note 6.md",
-    "note 9.md",
-    "Note 4.md",
-    "Note 8.md",
-    "Note 7.md"
+    "note 9.md"
   ]
 }
