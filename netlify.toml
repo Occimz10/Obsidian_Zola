@@ -15,7 +15,7 @@ PYTHON_VERSION = "3.8"
 # (REQUIRED) Site repo URL
 REPO_URL = "https://github.com/Occimz10/Obsidian_Zola"
 # (Optional) Site title in navbar
-SITE_TITLE = "Thought\s of a 🧠"
+SITE_TITLE = "Thoughtsss of a 🧠"
 # (Optional) Site title in browser tab (leave blank to use SITE_TITLE)
 SITE_TITLE_TAB = ""
 # (REQUIRED) Netlify site URL
