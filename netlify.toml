@@ -66,8 +66,9 @@ GRAPH_OPTIONS = """
         	},
         	interaction: {
         		hover: true,
-				hoverConnectedEdges: "true",
-				selectConnectedEdges: "true",
+        	},
+			options: {
+        		highlightNearest: true,
         	},
         	height: "100%",
         	width: "100%",
