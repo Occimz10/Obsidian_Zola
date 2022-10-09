@@ -1,25 +1,25 @@
 [build]
-command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || true && git clone https://github.com/occimz10/obsidian-zola-temp.git __site && __site/run.sh"
+command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || true && git clone https://github.com/ppeetteerrs/obsidian-zola.git __site && __site/run.sh"
 publish = "public"
 
 [build.environment]
 # (Optional) Text in landing page button
-LANDING_BUTTON = "Click to proceed.."
+LANDING_BUTTON = "Click to steal some👆"
 # (Optional) Site description on landing page
 LANDING_DESCRIPTION = "I have nothing but intelligence."
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
-LANDING_PAGE = "untitled"
+LANDING_PAGE = "home"
 # (Optional) Site title on landing page
-LANDING_TITLE = "I love knowledge! 💖"
+LANDING_TITLE = "I love obsidian-zola! 💖"
 PYTHON_VERSION = "3.8"
 # (REQUIRED) Site repo URL
-REPO_URL = "https://github.com/Occimz10/Obsidian_Zola"
+REPO_URL = "https://github.com/ppeetteerrs/obsidian-zola"
 # (Optional) Site title in navbar
-SITE_TITLE = "Thoughtsss of a 🧠"
+SITE_TITLE = "Someone's Second 🧠"
 # (Optional) Site title in browser tab (leave blank to use SITE_TITLE)
 SITE_TITLE_TAB = ""
 # (REQUIRED) Netlify site URL
-SITE_URL = "https://obszola.netlify.app/"
+SITE_URL = ""
 # (Optional) Site Timezone
 TIMEZONE = "Asia/Hong_Kong"
 ZOLA_VERSION = "0.15.2"
@@ -46,7 +46,7 @@ GRAPH_OPTIONS = """
         		shape: "dot",
         		color: isDark() ? "#8c8e91" : "#dee2e6",
         		font: {
-        			face: "Times New Roman",
+        			face: "Inter",
         			color: isDark() ? "#c9cdd1" : "#616469",
         			strokeColor: isDark() ? "#c9cdd1" : "#616469",
         		},
@@ -60,14 +60,11 @@ GRAPH_OPTIONS = """
         		color: { inherit: "both" },
         		width: 0.8,
         		smooth: {
-        			type: "Continuous",
+        			type: "continuous",
 					roundness: 1,
         		},
         		hoverWidth: 4,
-				chosen: {
-				edge: (values) => {
-				values.opacity /= edgeFade;
-      }
+				hoverConnectedEdges: "true",
         	},
         	interaction: {
         		hover: true,
@@ -75,8 +72,7 @@ GRAPH_OPTIONS = """
         	height: "100%",
         	width: "100%",
         	physics: {
-        		solver: "Repulsion",
+        		solver: "repulsion",
         	},
-			
         }
         """
