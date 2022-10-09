@@ -63,17 +63,17 @@ GRAPH_OPTIONS = """
         			type: "continuous",
 					roundness: 1,
         		},
-        		hoverWidth: 4,
-				hoverConnectedEdges: "true",
-				selectConnectedEdges: "true",
         	},
         	interaction: {
         		hover: true,
+				hoverConnectedEdges: "true",
+				selectConnectedEdges: "true",
         	},
         	height: "100%",
         	width: "100%",
         	physics: {
         		solver: "repulsion",
         	},
+			hoverWidth: 4,
         }
         """
