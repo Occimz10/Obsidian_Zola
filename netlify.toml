@@ -69,7 +69,11 @@ GRAPH_OPTIONS = """
         	},
         	height: "100%",
         	width: "100%",
-			highlightNearest: enabled: true,
+			
+			highlightNearest: {
+			enabled: true,
+			},
+			
         	physics: {
         		solver: "repulsion",
         	},
