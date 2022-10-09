@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled.md",
+            "file": "678890.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "678890.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "678890.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "678890.md"
               }
             }
           }
@@ -130,6 +130,7 @@
   },
   "active": "9889011619c9b3aa",
   "lastOpenFiles": [
+    "Untitled.md",
     "Data77788jnjn.md",
     "Cognition/Untitled/Untitled/Cognition090909.md",
     "Cognition/123456789900.md",
@@ -138,7 +139,6 @@
     "Note 3.md",
     "Cognition/Untitled/Untitled/metacognition.md",
     "metacognition.md",
-    "Note 6.md",
-    "note 9.md"
+    "Note 6.md"
   ]
 }
