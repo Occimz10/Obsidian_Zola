@@ -65,6 +65,7 @@ GRAPH_OPTIONS = """
         		},
         		hoverWidth: 4,
 				hoverConnectedEdges: "true",
+				selectConnectedEdges: "true",
         	},
         	interaction: {
         		hover: true,
