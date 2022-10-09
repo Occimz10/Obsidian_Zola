@@ -42,8 +42,6 @@ ROOT_SECTION_NAME = "main"
 # (Optional) visjs graph options. Can remove if desired.
 GRAPH_OPTIONS = """
         {
-		visNetwork(nodes, edges) %>%
-  visEdges(smooth = FALSE)
         	nodes: {
         		shape: "dot",
         		color: isDark() ? "#8c8e91" : "#dee2e6",
