@@ -73,7 +73,14 @@ GRAPH_OPTIONS = """
         		solver: "repulsion",
         	},
 			hoverWidth: 4,
-			highlightNearest: enabled,
-			nodesIdSelection: enabled,
+			options: {
+			  graph,
+			  highlightNearest: {
+        				enabled: true,
+        			},
+			  nodesIdSelection: {
+        				enabled: true,
+        			},
+			  },
         }
         """
