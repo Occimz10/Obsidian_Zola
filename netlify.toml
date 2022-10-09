@@ -77,13 +77,6 @@ GRAPH_OPTIONS = """
         	physics: {
         		solver: "Repulsion",
         	},
-			Focus: (
-			  graph,
-			  id,
-			  scale = 2,
-			  offset = list(x = 0, y = 0),
-			  locked = "TRUE",
-			  animation = list(duration = 1500, easingFunction = "easeInOutQuad")
-)
+			
         }
         """
