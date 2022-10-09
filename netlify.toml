@@ -69,18 +69,10 @@ GRAPH_OPTIONS = """
         	},
         	height: "100%",
         	width: "100%",
+			highlightNearest: "enabled",
         	physics: {
         		solver: "repulsion",
         	},
 			hoverWidth: 4,
-			options: {
-			  graph,
-			  highlightNearest: {
-        				enabled: true,
-        			},
-			  nodesIdSelection: {
-        				enabled: true,
-        			},
-			  },
         }
         """
