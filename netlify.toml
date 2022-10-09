@@ -43,6 +43,7 @@ ROOT_SECTION_NAME = "main"
 GRAPH_OPTIONS = """
         {
         	nodes: {
+				highlightNearest: true,
         		shape: "dot",
         		color: isDark() ? "#8c8e91" : "#dee2e6",
         		font: {
@@ -57,6 +58,7 @@ GRAPH_OPTIONS = """
         		},
         	},
         	edges: {
+				highlightNearest: true,
         		color: { inherit: "both" },
         		width: 0.8,
         		smooth: {
@@ -66,9 +68,6 @@ GRAPH_OPTIONS = """
         	},
         	interaction: {
         		hover: true,
-        	},
-			options: {
-        		highlightNearest: true,
         	},
         	height: "100%",
         	width: "100%",
