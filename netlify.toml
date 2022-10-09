@@ -60,7 +60,8 @@ GRAPH_OPTIONS = """
         		color: { inherit: "both" },
         		width: 0.8,
         		smooth: {
-        			enabled: false,
+        			type: "Continuous",
+					roundness: 1,
         		},
         		hoverWidth: 4,
         	},
