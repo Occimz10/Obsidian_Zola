@@ -64,6 +64,10 @@ GRAPH_OPTIONS = """
 					roundness: 1,
         		},
         		hoverWidth: 4,
+				chosen: {
+				edge: (values) => {
+				values.opacity /= edgeFade;
+      }
         	},
         	interaction: {
         		hover: true,
@@ -73,5 +77,13 @@ GRAPH_OPTIONS = """
         	physics: {
         		solver: "Repulsion",
         	},
+			Focus: (
+			  graph,
+			  id,
+			  scale = 2,
+			  offset = list(x = 0, y = 0),
+			  locked = "TRUE",
+			  animation = list(duration = 1500, easingFunction = "easeInOutQuad")
+)
         }
         """
