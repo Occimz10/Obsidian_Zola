@@ -63,6 +63,7 @@ GRAPH_OPTIONS = """
         			type: "continuous",
 					roundness: 1,
         		},
+				arrows:"to",
         	},
         	interaction: {
         		hover: true,
