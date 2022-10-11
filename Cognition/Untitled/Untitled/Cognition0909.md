@@ -1,7 +1,7 @@
 To know,
 
 [[metacognition]]
-[[recognition]]
+[[Wisdom]]
 
 
 

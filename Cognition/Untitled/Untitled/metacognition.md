@@ -1,1 +1,1 @@
-[[Cognition090909]][[recognition]]
+[[Cognition0909]][[Wisdom]][[Mindset]]
