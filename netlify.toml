@@ -64,6 +64,7 @@ GRAPH_OPTIONS = """
 					roundness: 1,
         		},
 				arrows:"to",
+				hideColor:"rgba(200,200,200,0.1)",
         	},
         	interaction: {
         		hover: true,
