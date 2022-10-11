@@ -72,7 +72,7 @@ GRAPH_OPTIONS = """
         	width: "100%",
 			
 			highlightNearest: {
-			enabled: true,
+			enabled: "true",
 			hover: true,
 			hideColor:"rgba(200,200,200,0.1)",
 			},
