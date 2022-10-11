@@ -75,7 +75,7 @@ GRAPH_OPTIONS = """
 				highlightNearest: {
 					enabled: true,
 					hover: true,
-					hideColor:"rgba(200,200,200,0.1)",
+					hideColor:"rgba(255,0,0,0.9)",
 			},
 			},
         	physics: {
