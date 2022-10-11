@@ -73,6 +73,7 @@ GRAPH_OPTIONS = """
 			
 			highlightNearest: {
 			enabled: true,
+			hover: true,
 			},
 			
         	physics: {
