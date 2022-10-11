@@ -71,12 +71,10 @@ GRAPH_OPTIONS = """
         	height: "100%",
         	width: "100%",
 			
-			options: {
-				highlightNearest: {
-					enabled: true,
-					hover: true,
-					hideColor:"rgba(255,0,0,0.9)",
-			},
+			highlightNearest: {
+				enabled: true,
+				hover: true,
+				hideColor:"rgba(255,0,0,0.9)",
 			},
         	physics: {
         		solver: "repulsion",
