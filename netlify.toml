@@ -71,9 +71,11 @@ GRAPH_OPTIONS = """
         	height: "100%",
         	width: "100%",
 			
+			options: {
 			highlightNearest: {
 				enabled: true,
 				algorithm: "hierarchical",
+			},
 			},
 			background: "black",
         	physics: {
