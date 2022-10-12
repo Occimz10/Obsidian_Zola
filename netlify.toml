@@ -57,7 +57,7 @@ GRAPH_OPTIONS = """
         		},
         	},
         	edges: {
-        		color: { hover: "#234234", inherit: "both" },
+        		
         		width: 0.8,
         		smooth: {
         			type: "continuous",
@@ -73,11 +73,6 @@ GRAPH_OPTIONS = """
 			
 			highlightNearest: {
 				enabled: true,
-				hover: true,
-				degree: 20,
-				hideColor:"rgba(255,0,0,1)",
-				algorithm: "all",
-				color: { hover: "#234234", inherit: "both" },
 			},
         	physics: {
         		solver: "repulsion",
