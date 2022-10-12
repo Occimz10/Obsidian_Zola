@@ -57,7 +57,7 @@ GRAPH_OPTIONS = """
         		},
         	},
         	edges: {
-        		color: { highlight: "#234234", hover: "#234234", inherit: "both" },
+        		color: { opacity: "0.1", highlight: "#234234", hover: "#234234", inherit: "both" },
         		width: 0.8,
         		smooth: {
         			type: "continuous",
