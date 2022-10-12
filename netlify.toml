@@ -50,7 +50,6 @@ GRAPH_OPTIONS = """
         			color: isDark() ? "#c9cdd1" : "#616469",
         			strokeColor: isDark() ? "#c9cdd1" : "#616469",
         		},
-        		},
         		scaling: {
         			label: {
         				enabled: true,
@@ -64,7 +63,7 @@ GRAPH_OPTIONS = """
         			type: "continuous",
 					roundness: 1,
         		},
-				arrows: { hover: "to" },
+				arrows:"to",
         	},
         	interaction: {
         		hover: true,
@@ -74,9 +73,11 @@ GRAPH_OPTIONS = """
 			
 			highlightNearest: {
 				enabled: true,
-				algorithm: "hierarchical",
+				hover: true,
+				degree: 2,
+				hideColor:"rgba(255,0,0,0.9)",
+				color: { hover: "#234234", inherit: "both" },
 			},
-			
         	physics: {
         		solver: "repulsion",
         	},
