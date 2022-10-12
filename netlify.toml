@@ -50,6 +50,13 @@ GRAPH_OPTIONS = """
         			color: isDark() ? "#c9cdd1" : "#616469",
         			strokeColor: isDark() ? "#c9cdd1" : "#616469",
         		},
+				highlight: {
+        			background: "#234234",
+        			},
+				hover: {
+        			background: "red",
+        			},
+        		},
         		scaling: {
         			label: {
         				enabled: true,
@@ -71,13 +78,11 @@ GRAPH_OPTIONS = """
         	height: "100%",
         	width: "100%",
 			
-			options: {
 			highlightNearest: {
 				enabled: true,
 				algorithm: "hierarchical",
 			},
-			},
-			background: "black",
+			
         	physics: {
         		solver: "repulsion",
         	},
