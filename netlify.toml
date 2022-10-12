@@ -53,9 +53,7 @@ GRAPH_OPTIONS = """
 				highlight: {
         			background: "#234234",
         			},
-				hover: {
-        			background: "red",
-        			},
+				
         		},
         		scaling: {
         			label: {
