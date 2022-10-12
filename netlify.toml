@@ -44,11 +44,7 @@ GRAPH_OPTIONS = """
         {
         	nodes: {
         		shape: "square",
-        		color: isDark() ? "#8c8e91" : "#dee2e6",{
-						highlight: {
-						background: "#234234",
-						},
-						},
+        		color: isDark() ? "#8c8e91" : "#dee2e6",
         		font: {
         			face: "Inter",
         			color: isDark() ? "#c9cdd1" : "#616469",
