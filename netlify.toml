@@ -57,13 +57,13 @@ GRAPH_OPTIONS = """
         		},
         	},
         	edges: {
-        		
+        		color: { hover: "#234234", inherit: "both" },
         		width: 0.8,
         		smooth: {
         			type: "continuous",
 					roundness: 1,
         		},
-				arrows:"to",
+				arrows: { hover: "to" },
         	},
         	interaction: {
         		hover: true,
