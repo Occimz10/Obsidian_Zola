@@ -74,8 +74,9 @@ GRAPH_OPTIONS = """
 			highlightNearest: {
 				enabled: true,
 				hover: true,
-				degree: 2,
-				hideColor:"rgba(255,0,0,0.9)",
+				degree: 20,
+				hideColor:"rgba(255,0,0,1)",
+				algorithm: "all",
 				color: { hover: "#234234", inherit: "both" },
 			},
         	physics: {
