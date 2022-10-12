@@ -73,7 +73,9 @@ GRAPH_OPTIONS = """
 			
 			highlightNearest: {
 				enabled: true,
+				algorithm: "hierarchical",
 			},
+			background: "black",
         	physics: {
         		solver: "repulsion",
         	},
